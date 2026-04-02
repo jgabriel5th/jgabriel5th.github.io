@@ -1,4 +1,4 @@
-![Web Image](https://cdn-icons-png.flaticon.com/512/4466/4466528.png)
+![Web Image](https://cdn-icons-png.flaticon.com/256/6352/6352331.png)
 # Welcome to my web studies!
 Actually, this repository was created to test Github Pages, but since it works pretty well, I'm going to put my web studies here.
 
