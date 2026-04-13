@@ -1,6 +1,8 @@
 <!-- HTML is case insensitive, so it doesn't matter if it is DOCTYPE or doctype, the code will work.-->
 <!-- Example of tag: <example> </example> -->
 <!--It's possible to create the essential just typing ! in the beginning.-->
+<!-- A tag can have an attribute, one of the most used ones is the id="name", it must be unique for each tag. -->
+ <!-- Another useful attribute is class="", it's an identifier like id="" but can be shared with other tags.-->
 <!doctype html>
 <html lang="en">
 
@@ -8,11 +10,27 @@
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My website</title>
+        <style>
+            h1 {
+                background: blue;
+            }
+
+            #CSS { /* Usando a hashtag(#) serve para pegar o id de uma tag de HTML. */
+                background: red;
+            }
+
+           /* .blue-background {  Agora começando com um ponto, serve para pegar uma classe.
+                background: blue;
+            } */
+        </style>
     </head>
 
     <body>
-        <h1>Hello World</h1>
-        <p>Just testing HTML</p>
+        <h1 id="Heading" class="blue-background">Hello World</h1>
+        <p>Studying HTML and CSS, so that I can begin my studies in JavaScript.</p>
+        <h2 id="CSS">Testing CSS</h2> 
+        <p id="Paragraph">Little by little, this website is starting to change, isn't it?</p>
+        <h3>Tomorrow I'm going to put an image here.</h3>
         <span>JG5</span><br> <!-- span is In-line, using br will break line-->
         <span>Developer</span><br>
         Domaining <br> Html5
