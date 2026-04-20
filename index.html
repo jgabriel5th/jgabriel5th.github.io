@@ -7,20 +7,22 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My website</title>
-        <style>
-            .github-image {
-                width: 50px;
-                height: 44px;
-            }
-            .web-image {
-                width: 256px;
-                height: 256px;
-            }
-           /*  h1 {
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <style>
+        .github-image {
+            width: 50px;
+            height: 44px;
+        }
+
+        .web-image {
+            width: 256px;
+            height: 256px;
+        }
+
+        /*  h1 {
                 background: blue;
             }
 
@@ -31,32 +33,48 @@
             .blue-background {  Agora começando com um ponto, serve para pegar uma classe.
                 background: blue;
             } */
-        </style> 
-    </head>
+    </style>
+</head>
 
-    <body>
+<body>
+    <header>
         <h1 id="Heading" class="blue-background" style="background: rgb(83, 83, 255);"><u>Welcome!</u></h1>
         <p>Studying <b>HTML and CSS</b>, so that I can begin my studies in <b>JavaScript</b>.</p>
-        <h2 id="CSS" style="background: rgb(255, 0, 0)">Testing features here</h2> 
-        <p id="Paragraph"><i>Little by little, this website is starting to change, isn't it?</i></p>
-        <h3><del>Tomorrow I'm going to put an image here.</del><ins> I've already done it :D</ins></h3>
-        <span>JG5<sup>th</sup></span><br> <!-- span is In-line, using br will break line-->
-        <span>Developer</span>
-        <p><b>Testing pre and code tags below:</b></p>
-        <pre>
+    </header>
+
+    <section>
+         <h2 id="CSS" style="background: rgb(255, 0, 0)">Testing features</h2>
+        <article>
+            <h3>Every single new feature will be tested here</h3>
+            <p id="Paragraph"><i>Little by little, this website is starting to change, isn't it?</i></p>
+            <span>JG5<sup>th</sup></span><br> <!-- span is In-line, using br will break line-->
+            <span>Developer</span>
+            <p><b>Testing pre and code tags below:</b></p>
+            <pre>
             <code>
 let name = "John";
 console.log(name);
             </code>
         </pre>
-        <img src="https://cdn-icons-png.flaticon.com/512/4466/4466528.png" alt="Web development logo" class="web-image"> <!-- Tag used to put an image.-->
+            <img src="https://cdn-icons-png.flaticon.com/512/4466/4466528.png" alt="Web development logo"
+                class="web-image">
+            <!-- Tag used to put an image.-->
+        </article>
+    </section>
 
-        <hr>
-        <h1 style="background-color: rgb(41, 252, 41);"><u>Social Media</u></h2>
-        <a href="https://github.com/jgabriel5th" target="_blank"><b>GitHub Profile</b></a> <!-- Tag used to put a link.-->
-        <p><b>Visit this website repository by clicking the image below:</b></p>
-        <a href="https://github.com/jgabriel5th/jgabriel5th.github.io" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="Link for this repository" class="github-image">
-        </a>
-    </body>
-</html> 
+    <hr>
+    <section>
+        <header>
+            <h2 style="background-color: rgb(41, 252, 41);"><u>Social Media</u></h2>
+            <a href="https://github.com/jgabriel5th" target="_blank"><b>GitHub Profile</b></a>
+            <!-- Tag used to put a link.-->
+            <p><b>Visit this website repository by clicking the image below:</b></p>
+            <a href="https://github.com/jgabriel5th/jgabriel5th.github.io" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="Link for this repository"
+                    class="github-image">
+            </a>
+        </header>
+    </section>
+</body>
+
+</html>
