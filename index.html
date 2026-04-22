@@ -13,6 +13,7 @@
     <title>My website</title>
     <style>
         .github-image {
+            display: block;
             width: 50px;
             height: 44px;
         }
@@ -22,28 +23,27 @@
             height: 256px;
         }
 
-        /*  h1 {
-                background: blue;
-            }
+        * {
+            font-family: sans-serif;
+        }
 
-            #CSS {  Usando a hashtag(#) serve para pegar o id de uma tag de HTML. 
-                background: red;
-            }
-
-            .blue-background {  Agora começando com um ponto, serve para pegar uma classe.
-                background: blue;
-            } */
+        #Title h1{
+            background: rgb(83, 83, 255);
+        }
+        #SocialMedia a {
+            font-size: large;
+        }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1 id="Heading" class="blue-background" style="background: rgb(83, 83, 255);"><u>Welcome!</u></h1>
+    <header id="Title">
+        <h1><u>Welcome!</u></h1>
         <p>Studying <b>HTML and CSS</b>, so that I can begin my studies in <b>JavaScript</b>.</p>
     </header>
-
+    <hr>
     <section>
-         <h2 id="CSS" style="background: rgb(255, 0, 0)">Testing features</h2>
+        <h2 id="CSS" style="background: rgb(255, 0, 0)">Testing features</h2>
         <article>
             <h3>Every single new feature will be tested here</h3>
             <p id="Paragraph"><i>Little by little, this website is starting to change, isn't it?</i></p>
@@ -64,7 +64,7 @@ console.log(name);
 
     <hr>
     <section>
-        <header>
+        <header id="SocialMedia">
             <h2 style="background-color: rgb(41, 252, 41);"><u>Social Media</u></h2>
             <a href="https://github.com/jgabriel5th" target="_blank"><b>GitHub Profile</b></a>
             <!-- Tag used to put a link.-->
