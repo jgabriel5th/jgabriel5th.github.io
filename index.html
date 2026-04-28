@@ -18,6 +18,12 @@
             height: 44px;
         }
 
+        body {
+            background-image: image-set("site-image.jpg");
+            background-size: cover;
+            background-position: top center;
+        }
+
         .web-image {
             width: 256px;
             height: 256px;
@@ -25,10 +31,12 @@
 
         * {
             font-family: sans-serif;
+            color: white;
         }
 
         #Title h1{
-            background: rgb(83, 83, 255);
+            background: rgba(0, 0, 255, 0.4);
+            text-align: center;
         }
         #SocialMedia a {
             font-size: large;
@@ -39,11 +47,11 @@
 <body>
     <header id="Title">
         <h1><u>Welcome!</u></h1>
-        <p>Studying <b>HTML and CSS</b>, so that I can begin my studies in <b>JavaScript</b>.</p>
+        <p>This is a website I'm developing with <b>HTML and CSS</b> so that I can master them and afterwards learn <b>JavaScript</b>.</p>
     </header>
     <hr>
     <section>
-        <h2 id="CSS" style="background: rgb(255, 0, 0)">Testing features</h2>
+        <h2 id="CSS" style="background: rgba(255, 0, 0, 0.4)">Testing features</h2>
         <article>
             <h3>Every single new feature will be tested here</h3>
             <p id="Paragraph"><i>Little by little, this website is starting to change, isn't it?</i></p>
@@ -65,12 +73,12 @@ console.log(name);
     <hr>
     <section>
         <header id="SocialMedia">
-            <h2 style="background-color: rgb(41, 252, 41);"><u>Social Media</u></h2>
+            <h2 style="background-color: rgba(41, 252, 41, 0.4);"><u>Social Media</u></h2>
             <a href="https://github.com/jgabriel5th" target="_blank"><b>GitHub Profile</b></a>
             <!-- Tag used to put a link.-->
             <p><b>Visit this website repository by clicking the image below:</b></p>
             <a href="https://github.com/jgabriel5th/jgabriel5th.github.io" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="Link for this repository"
+                <img src="https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" alt="Link for this repository"
                     class="github-image">
             </a>
         </header>
